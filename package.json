@@ -1,0 +1,27 @@
+{
+  "name": "automacao-login",
+  "version": "1.0.0",
+  "description": "Testes de automação para validação de login",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "homepage": "",
+  "devDependencies": {
+    "cypress": "^14.5.2",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps",
+    "filterSpecs": true,
+    "omitFiltered": true,
+    "chromeWebSecurity": false
+  }
+}

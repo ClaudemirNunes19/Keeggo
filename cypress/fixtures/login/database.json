@@ -1,0 +1,14 @@
+{
+  "qaCommerceDados": {
+    "email": "teste37@teste.com.br", 
+    "senha": "Qualidade2025@",
+    "mensagemValidacaoLogin": "Minha conta",
+    "inserirQuandidadeDeProdutos": "2",
+    "nome": "Teste",
+    "sobrenome": "QA Commerce",
+    "endereco": "Avenida Interlagos",
+    "numeroEndereco": "15",
+    "cep": "04660000",
+    "telefone": "1136271901"
+    }
+}
